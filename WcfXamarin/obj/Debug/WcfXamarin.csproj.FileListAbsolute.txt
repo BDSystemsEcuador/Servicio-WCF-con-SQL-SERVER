@@ -1,0 +1,6 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\bin\WcfXamarin.dll.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\bin\WcfXamarin.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\bin\WcfXamarin.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.pdb
