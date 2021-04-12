@@ -21,5 +21,9 @@ namespace WcfXamarin
         IList<Cliente> getClientes();
         [OperationContract, WebGet(UriTemplate = "getClientesSQL", ResponseFormat = WebMessageFormat.Json)]
         IList<Cliente> getClientesSQL();
+        [OperationContract, WebGet(UriTemplate = "getFacturasSQL", ResponseFormat = WebMessageFormat.Json)]
+        IList<Factura> getFacturasSQL();
+        [OperationContract, WebGet(UriTemplate = "getVentasSQL", ResponseFormat = WebMessageFormat.Json)]
+        IList<Venta> getVentasSQL();
     }
 }

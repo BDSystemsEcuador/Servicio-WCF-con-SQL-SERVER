@@ -4,3 +4,17 @@ C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\bin\
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.dll
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\WcfXamarin\WcfXamarin\obj\Debug\WcfXamarin.pdb
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.dll.config
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.dll
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.pdb
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.csprojAssemblyReference.cache
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.csproj.CoreCompileInputs.cache
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.dll
+C:\Users\rober\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Desktop\.-\Proyectoss\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.pdb
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.dll.config
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.dll
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\bin\WcfXamarin.pdb
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.csprojAssemblyReference.cache
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.dll
+C:\Users\rober\source\repos\ProyectoXamarin fullashede mega\Servicio-WCF-con-SQL-SERVER\WcfXamarin\obj\Debug\WcfXamarin.pdb

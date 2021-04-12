@@ -5,6 +5,10 @@ using System.Web;
 
 namespace WcfXamarin
 {
+    public class Clientes
+    {
+        public Cliente[] cliente;
+    }
     public class Cliente
     {
         public string name;

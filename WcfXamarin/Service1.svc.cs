@@ -45,5 +45,15 @@ namespace WcfXamarin
         {
             return "mi primer servicio";
         }
+
+        public IList<Factura> getFacturasSQL()
+        {
+            return Dato.getFacturaSQL();
+        }
+
+        public IList<Venta> getVentasSQL()
+        {
+            return Dato.getVentaSQL();
+        }
     }
 }

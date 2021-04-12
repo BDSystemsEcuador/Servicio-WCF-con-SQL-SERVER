@@ -50,5 +50,67 @@ namespace WcfXamarin
             //retornamos la lista me va a dar como resultado {[ruc: 213123,name: daniel, codigo: 123123],[ruc 23423,name camila, codigo 345]}
             return retorno;
         }
+        public static IList<Factura> getFacturaSQL()
+        {
+            //Es una clase de la libreria System.Data, y se instancia el objeto tabla
+            DataTable tabla = new DataTable();
+            //Es una clase de la libreria System.Data, y se instancia el objeto ada y recibe como parámetros la sentencia SQL Select(seleccina todo desde cliente),y cadena
+            SqlDataAdapter ada = new SqlDataAdapter("Select * from factura", cadena);
+            //llenamos el objeto ada con el objeto tabla
+            ada.Fill(tabla);
+            //Es una lista de tipo Cliente llamada retorno y está vacia
+            IList<Factura> retorno = new List<Factura>();
+            //Es un bucle que recorre las filas de mi tabla
+            // 0   1 2 3 4
+            // 1e  2e
+            // tabla.Rows.Coun -> registros que estan en la tabla
+            for (int i = 0; i < tabla.Rows.Count; i++)
+            {
+                //Instanciando un objeto llamado item y estamos ingresando los datos al constructor, 
+                Factura item = new Factura()
+                {
+                    //ruc,name, y codigo es igual al valor que me trae de la tabla de elementos i 
+                    id = tabla.Rows[i]["id"] + "",
+                    nameEmpresa = tabla.Rows[i]["nameEmpresa"] + "",
+                    fecha = tabla.Rows[i]["fecha"] + "",
+                    name = tabla.Rows[i]["name"] + "",
+                };
+                //llenamos la lista retorno con objetos de tipo cliente
+                retorno.Add(item);
+            }
+            //retornamos la lista me va a dar como resultado {[ruc: 213123,name: daniel, codigo: 123123],[ruc 23423,name camila, codigo 345]}
+            return retorno;
+        }
+
+        public static IList<Venta> getVentaSQL()
+        {
+            //Es una clase de la libreria System.Data, y se instancia el objeto tabla
+            DataTable tabla = new DataTable();
+            //Es una clase de la libreria System.Data, y se instancia el objeto ada y recibe como parámetros la sentencia SQL Select(seleccina todo desde cliente),y cadena
+            SqlDataAdapter ada = new SqlDataAdapter("select factura.nameEmpresa, venta.cantidad from factura inner join venta on factura.id = venta.fk_factura;", cadena);
+            //llenamos el objeto ada con el objeto tabla
+            ada.Fill(tabla);
+            //Es una lista de tipo Cliente llamada retorno y está vacia
+            IList<Venta> retorno = new List<Venta>();
+            //Es un bucle que recorre las filas de mi tabla
+            // 0   1 2 3 4
+            // 1e  2e
+            // tabla.Rows.Coun -> registros que estan en la tabla
+            for (int i = 0; i < tabla.Rows.Count; i++)
+            {
+                //Instanciando un objeto llamado item y estamos ingresando los datos al constructor, 
+                Venta item = new Venta()
+                {
+                    //ruc,name, y codigo es igual al valor que me trae de la tabla de elementos i 
+                    
+                    cantidad = Convert.ToInt32(tabla.Rows[i]["cantidad"]),
+                    nameEmpresa = tabla.Rows[i]["nameEmpresa"] + "",
+                };
+                //llenamos la lista retorno con objetos de tipo cliente
+                retorno.Add(item);
+            }
+            //retornamos la lista me va a dar como resultado {[ruc: 213123,name: daniel, codigo: 123123],[ruc 23423,name camila, codigo 345]}
+            return retorno;
+        }
     }
 }
